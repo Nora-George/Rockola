@@ -1,0 +1,103 @@
+body {
+    background-image:url(img/Imagen_Disco.jpg);
+}
+.cancionAnterior{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: azure;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    display: none;
+}   
+.container{
+    top: 0px;
+    left: 420px;
+    width: 400px;
+    height: 95vh;
+    margin: 2rem  auto;
+    border: 10px solid black;
+
+    text-align: center;
+    position: absolute  ;
+    background-image: url(img/Rockola.jpg);
+    background-size: cover;
+}
+.container #nombreCan{
+    top: 50%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(55, 112, 218);
+    position: relative;
+}
+#img{
+    left: 100px;
+    top: 50px;
+    position: absolute;
+    height: 150px;
+    height: 150px;
+}
+#ant{
+    top: 460px;
+    left: 125px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+    background: none;
+    position: absolute;
+}
+#ply{
+    top: 460px;
+    left: 175px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+    display: block;
+    position: absolute;
+}
+#pau{
+    top: 460px;
+    left: 175px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+    position: absolute;
+}
+#sig{
+    top: 460px;
+    left: 225px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    z-index: 1;
+    position: absolute;
+}
+.cancionSiguiente{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 820px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: azure;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    display: none;
+}
+#song{
+    display: none;
+}
